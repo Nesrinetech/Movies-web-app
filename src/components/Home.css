@@ -1,0 +1,183 @@
+.header-text {
+width: 393px;
+height: 80px;
+padding: 10px 40px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 80px;
+letter-spacing: -0.02em;
+color: #EBEEF5;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.paragraph-1 {
+width: 588px;
+height: 48px;
+padding: 10px 40px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #8E95A9;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+}
+
+.search-bar-container {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+color: #767E94;
+ 
+background: rgba(0, 0, 0, 0.1);
+ 
+border: 1px solid #323B54;
+border-radius: 12px;
+position: absolute;
+width: 344px;
+height: 64px;
+left: 100px;
+top: 428px;
+display: flex;
+ 
+ 
+align-items: center;
+padding: 12px 16px;
+ 
+}
+
+.text-bar {
+ 
+
+width: 189px;
+height: 16px;
+margin-left: 92px;
+ 
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+ 
+color: #475069;
+
+
+ 
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.icon {
+ 
+
+width: 24px;
+height: 24px;
+ 
+position: absolute;
+ 
+left: 0px;
+top: 0px;
+ 
+left: 10px;
+top: 12px;
+}
+
+.choose-container {
+  color: white;
+}
+
+.section2 {
+ 
+  position: relative; 
+  margin-top: 280px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #767E94;
+}
+
+ 
+  .images-containers {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    gap: 16px;  
+    
+    backdrop-filter: blur(40px);
+    border-radius: 12px;
+    padding: 8px;  
+  }
+
+
+
+ 
+.images {
+  flex: 1 1 calc(20% - 8px); /* Each image takes 25% of the width minus the gap */
+  max-width: calc(20% - 8px);
+  box-sizing: border-box; /* Include padding and borders in the width */
+  margin-bottom: 8px; /* Optional: Adjust the spacing below each row */
+}
+
+
+
+.images img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between movie cards */
+}
+ 
+.movie-card {
+  flex: 1 1 calc(25% - 8px); /* Each movie takes 25% width minus some margin */
+  margin-bottom: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+ 
+.movie-poster {
+  width: 100%; /* Make poster images uniform */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.movie-card {
+  width: 200px;
+  text-align: center;
+}
+
+.movie-poster{
+  width: 100%;
+  height: auto;
+}
+
+.movie-info {
+  padding: 10px;
+}
+

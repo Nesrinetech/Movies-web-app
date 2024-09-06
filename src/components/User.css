@@ -1,0 +1,46 @@
+/* Posts.css */
+.users-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .users-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .users-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .users-list li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+  }
+  
+  .users-list li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .users-list h2 {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  .users-list p {
+    margin: 5px 0 0;
+    color: #555;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    color: #888;
+  }
+  
